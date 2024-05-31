@@ -1,2 +1,2 @@
 # pagina-Javascriptht
- pagina-Javascripthttps://josejunior01.github.io/pagina-Javascript/
+josejunior01.github.io/pagina-Javascript
