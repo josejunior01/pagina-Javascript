@@ -1,0 +1,117 @@
+
+@media(max-width:400px){
+    
+    header{
+        padding: 5rem;
+        background-color: #f18601;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction:row-reverse;
+     
+    }
+.menu-header ul{
+    display:block;
+    
+}
+.menu-header li {
+    list-style: none;
+}
+.menu-header a{
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.6em;
+}
+.menu-header a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+.img img{
+    width: 200%;
+}
+
+#sessao{
+    background-image: url(https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/04/javascript-25042023.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 62.1em;
+    height: 50em;
+    
+    }
+    .conteiner{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .conteiner h1{
+        color: white;
+    margin-left: 19em;
+    margin-top: 5em;
+    font-size: 2em;
+    }
+    .conteiner p{
+        margin-top: 2em;
+        text-align: center;
+        color: white;
+    margin-left: 35em;
+    margin-right: 1em;
+    }
+
+    #sessao1{
+        padding: 10em;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #f18601;
+    }
+    .box h2{
+        font-size:2em ;
+        color: rgb(10, 10, 10);
+    text-align: center;
+    margin: 0.3em;
+    }
+    .box p{
+        margin: 1em;
+        color: white;
+        font-size:1.2em ;
+        text-align: center;
+    }
+    .box{
+    border: 0.1em solid black;
+    border-radius: 1em;
+    margin: 1em;
+    width: 18em;
+    height: 28em;
+    
+    }
+    footer {
+        background-color: #f59f1e;
+        padding: 5em;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .menu-rodape ul{
+        display: flex;
+    list-style: none;
+    }
+    .menu-rodape li{
+    margin-left: 2em;
+    }
+    .menu-rodape a{
+        text-decoration: none;
+        color: white; 
+        font-size: 2em;
+    }
+    .menu-rodape a:hover{
+        color: red;
+        transition: 0.5s;
+    }
+    .icons a{
+        text-decoration: none;
+        margin-left: 1em;
+        color: black;
+        font-size: 3em;
+    }
+    
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    padding: 1rem;
+    background-color: #f18601;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.menu-header ul{
+
+    display: flex;
+
+}
+.menu-header li {
+   list-style: none;
+}
+.menu-header a{
+color: rgb(14, 13, 13);
+text-decoration: none;
+margin-left: 5em;
+cursor: pointer;
+}
+.menu-header a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+.img img{
+    width: 100%;
+}
+.img img:last-child{
+    float: right;
+}
+#sessao{
+background-image: url(https://academiatech.s3.amazonaws.com/wp-content/uploads/2023/04/javascript-25042023.webp);
+background-size: cover;
+background-repeat: no-repeat;
+width: 98.vw;
+height: 90vh;
+
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.conteiner h1{
+    color: white;
+margin-left: 29em;
+margin-top: 5em;
+}
+.conteiner p{
+    margin-top: 2em;
+    text-align: center;
+    color: white;
+margin-left: 55em;
+margin-right: 9em;
+}
+#sessao1{
+    padding: 4em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f18601;
+}
+.box h2{
+    font-size:15px ;
+    color: rgb(0, 0, 0);
+text-align: center;
+margin: 0.3em;
+}
+.box p{
+    margin: 1em;
+    color: white;
+    font-size:0.7em ;
+    text-align: center;
+}
+.box{
+border: 0.1em solid black;
+border-radius: 1em;
+margin: 2em;
+width: 18em;
+height: 8em;
+background-color: red;
+
+}
+footer {
+    background-color: #f59f1e;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.menu-rodape ul{
+    display: flex;
+list-style: none;
+}
+.menu-rodape li{
+margin-left: 5em;
+}
+.menu-rodape a{
+    text-decoration: none;
+    color: white; 
+}
+.menu-rodape a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.icons a{
+    text-decoration: none;
+    margin-left: 2em;
+    color: black;
+}
